@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>		<title>ASSIGNMENT 1</title>         
+<link rel="stylesheet"  type="text/css"  href="assignment 222.css">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header1 {
+  padding: 60px;
+  text-align: center;
+background-image: url(W.JPG);
+  color: white;
+  font-size: 30px;
+}
+
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+     <div class="header1">
+  <h1>Photography Portfolio</h1>
+  <p>zerubabel derese</p>
+</div> 
+
+ <div class="header">
+    <div class="header-right">
+    <a class="active" href="index.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="ass.html">assingnments</a>
+  </div>
+</div> 
+  
+    
+			 <h1>SVG Practice 2</h1>     
+			 <br> <div class="projects">    SVG (Scalable Vector Graphics): Example 2              <br><br>  
+    <svg x="0px" y="0px" width="254.3px" height="254.3px" viewBox="0 0 254.3 254.3" enable-background="new 0 0 254.3 254.3" xml:space="preserve">
+			
+
+	
+	
+		<g class="dev1">
+			<circle class="dev1" fill=brown cx="127.2" cy="127.2" r="127.2"/>
+		</g>
+		<g class="dev5">
+			<ellipse class="dev5" fill=blue cx="138.9" cy="127.2" rx="85.6" ry="82"/>
+		</g>
+		<g class="dev2">
+			<circle class="dev2" fill=#FF0000 cx="122.6" cy="54.7" r="16.3"/>
+			<ellipse class="dev2" fill=#FF0000 cx="189" cy="68.8" rx="18.4" ry="17"/> 
+			<circle class="dev2" fill=#FF0000 cx="217" cy="127.2" r="18.3"/>
+			<circle class="dev2" fill=#FF0000 cx="198.3" cy="183" r="23.1"/>
+		</g>
+		<g class="dev3">
+			<circle class="dev3" fill="#A8A8A0" cx="148" cy="37.5" r="17.2"/> 
+			<circle class="dev3" fill="#A8A8A0"  cx="189" cy="85.8" r="17.2"/>
+			<circle class="dev3" fill="#A8A8A0" cx="198.7" cy="142.7" r="17.2"/>
+			<circle class="dev3" fill="#A8A8A0" cx="170.6" cy="195.8" r="17.2"/>
+		</g>
+		<g class="dev4">
+				<circle class="dev4" fill="#6CF95D" cx="143.4" cy="60.2" r="16.2"/>             
+				<circle class="dev4" fill="#6CF95D" cx="181.5" cy="60.2" r="16.2"/>             
+				<circle class="dev4" fill="#6CF95D" cx="175.1" cy="105.8" r="16.2"/>             
+				<circle class="dev4" fill="#6CF95D" cx="227.6" cy="142.7" r="16.2"/>             
+				<circle class="dev4" fill="#6CF95D" cx="152" cy="194.9" r="16.2"/>
+		</g>
+	
+
+    </svg>
+
+    </div>  
+    <div class="buttons" id="sidebar" >  
+			<button id="dev1">dev1</button><br><br>         
+			<button id="dev2">dev2</button><br><br>         
+			<button id="dev3">dev3</button><br><br>         
+			<button id="dev4">dev4</button><br><br>             
+		</div>  
+    <script>         
+		 const dev1Button = document.querySelector('#dev1');     
+		 const dev2Button = document.querySelector('#dev2');     
+		 const dev3Button = document.querySelector('#dev3');     
+		 const dev4Button = document.querySelector('#dev4');  
+     
+		  const dev1 = document.querySelector('.dev1');     
+			const dev2 = document.querySelector('.dev2');     
+			const dev3 = document.querySelector('.dev3');     
+			const dev4 = document.querySelector('.dev4');  
+       
+			 dev1Button.addEventListener('click', e =>{ 
+				 dev1.classList.toggle('removed');});  
+        dev2Button.addEventListener('click', e =>{ 
+					dev2.classList.toggle('removed');});  
+        dev3Button.addEventListener('click', e =>{ 
+					dev3.classList.toggle('removed');});  
+        dev4Button.addEventListener('click', e =>{ 
+					dev4.classList.toggle('removed');});  
+				</script> 
+				</body> 
+				</html>
